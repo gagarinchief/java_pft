@@ -1,1 +1,7 @@
 apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = "MyFirstProgram"
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+javadoc.options.encoding = 'UTF-8'
