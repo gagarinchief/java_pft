@@ -1,13 +1,13 @@
-/* Name it "Hello.java" 
+/* Name it "Hello.java"
  * Compile it by running "javac Hello.java"
  * Run it by typing "java Hello"
  */
 
 class MyFirstProgram {
-	public static void main(String args[])
-	{
+    public static void main(String args[]) {
+
     	System.out.println("Hello, world!");
-	}
+    }
 }
 
 
