@@ -7,23 +7,50 @@ package ru.stqa.pft.sandbox;
 
 public class MyFirstProgram {
     public static void main(String[] args) {
+        hello("World!");
+        hello("user");
+        hello("Alexei");
 
-            System.out.println("Hello, World!");
+        double len = 5;
+        System.out.println("Площадь квадрата со стороной " + len + " = " + area(len));
 
-        System.out.println(2 + 2);
-        System.out.println(2 * 2);
-        System.out.println(2 / 2);
-        System.out.println(2 - 2);
-        System.out.println(1.0/2);
-        System.out.println(1/2.0);
-
-        System.out.println("2" +  "2");
-        System.out.println("2" +  2);
-        System.out.println(2 +  "2");
-
-        System.out.println(2 + 2 * 2);
-        System.out.println("2 + 2 = " + (2 +2));
+        double a = 4;
+        double b = 6;
+        System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " +  area(a, b));
     }
+
+    public static void hello(String somebody) {
+        System.out.println("Hello, " +  somebody);
+    }
+
+    public static double area(double l) {
+        return l * l;
+    }
+
+    public static double area(double a, double b) {
+        return a * b;
+    }
+//        String somebody = "World!";
+//        System.out.println("Hello, " + somebody);
+//
+//        int l = 5;
+//        int s = l * l;
+//        System.out.println("Площадь квадрата со стороной " + l + " = " + (s));
+//
+//        System.out.println(2 + 2);
+//        System.out.println(2 * 2);
+//        System.out.println(2 / 2);
+//        System.out.println(2 - 2);
+//        System.out.println(1.0 / 2);
+//        System.out.println(1 / 2.0);
+//
+//        System.out.println("2" + "2");
+//        System.out.println("2" + 2);
+//        System.out.println(2 + "2");
+//
+//        System.out.println(2 + 2 * 2);
+//        System.out.println("2 + 2 = " + (2 + 2));
 }
+
 
 
