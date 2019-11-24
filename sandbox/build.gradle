@@ -2,6 +2,18 @@ apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = "MyFirstProgram"
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.testng:testng:7.0.0'
+}
+
+test {
+    useTestNG()
+}
+
 compileJava.options.encoding = 'UTF-8'
 compileTestJava.options.encoding = 'UTF-8'
 javadoc.options.encoding = 'UTF-8'
