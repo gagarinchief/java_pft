@@ -25,9 +25,9 @@ public class ApplicationManager {
 
     public void init() {
         String browser = BrowserType.FIREFOX;
-        if (browser.equals(BrowserType.FIREFOX)){
+        if (browser.equals(BrowserType.FIREFOX)) {
             wd = new FirefoxDriver();
-         } else if (browser.equals(BrowserType.CHROME)) {
+        } else if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
         } else if (browser.equals(BrowserType.IE)) {
             wd = new InternetExplorerDriver();
@@ -41,20 +41,18 @@ public class ApplicationManager {
     }
 
 
-
     public void stop() {
         wd.quit();
     }
 
     public boolean isElementPresent(By by) {
-          try {
-              wd.findElement(by);
-              return true;
-          } catch (NoSuchElementException e) {
-              return false;
-          }
-      }
-
+        try {
+            wd.findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
 
 
     public GroupHelper getGroupHelper() {
@@ -65,6 +63,7 @@ public class ApplicationManager {
         return navigationHelper;
     }
 
-    public ContactHelper getContactHelper() {
-    }
+//    public ContactHelper getContactHelper() {
+//        return;
+//    }
 }
