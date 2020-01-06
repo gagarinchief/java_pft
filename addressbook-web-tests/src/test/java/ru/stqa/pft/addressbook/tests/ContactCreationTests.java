@@ -6,7 +6,7 @@
 //
 //public class ContactCreationTests extends TestBase {
 //
-//    @Test
+//    @Test (enabled = false)
 //    public void testContactCreation() {
 //        app.getNavigationHelper().gotoHomePage();
 //        app.getContactHelper().initContactCreation();
