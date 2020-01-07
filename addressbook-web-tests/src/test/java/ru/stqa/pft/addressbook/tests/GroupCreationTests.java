@@ -19,11 +19,11 @@ public class GroupCreationTests extends TestBase {
 //        app.getGroupHelper().wd.findElement(By.linkText("Logout")).click();
 
     public void testGroupCreation() {
-        app.getNavigationHelper().goToGroupPage();
-        List<GroupData> before = app.getGroupHelper().getGroupList();
-        GroupData group = new GroupData("test1", "test2", "test3");
-        app.getGroupHelper().createGroup(group);
-        List<GroupData> after = app.getGroupHelper().getGroupList();
+        app.goTo().groupPage();
+        List<GroupData> before = app.group().list();
+        GroupData group = new GroupData().withName("test2");
+        app.group().create(group);
+        List<GroupData> after = app.group().list();
         Assert.assertEquals(after.size(), before.size() + 1);
 
 //        before.add(group);
@@ -36,7 +36,7 @@ public class GroupCreationTests extends TestBase {
 //        int max1 = after.stream().max((groupData, t1) -> Integer.compare(groupData.getId(), t1.getId())).get().getId();
 
 
-        group.setId(after.stream().max((groupData, t1) -> Integer.compare(groupData.getId(), t1.getId())).get().getId());
+        group.withId(after.stream().max((groupData, t1) -> Integer.compare(groupData.getId(), t1.getId())).get().getId());
         before.add(group);
         Comparator<? super GroupData> byId = ((groupData, t1) -> Integer.compare(groupData.getId(), t1.getId()));
         before.sort(byId);
