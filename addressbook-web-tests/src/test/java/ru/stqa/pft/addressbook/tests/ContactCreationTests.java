@@ -1,22 +1,16 @@
 package ru.stqa.pft.addressbook.tests;
 
-import org.testng.annotations.Test;
-import ru.stqa.pft.addressbook.model.ContactData;
-import ru.stqa.pft.addressbook.appmanager.ContactHelper;
-
-import java.io.File;
-
 public class ContactCreationTests extends TestBase {
 
-    @Test (enabled = true)
-    public void testContactCreation() {
-        app.goTo().gotoHomePage();
-        app.contact().initContactCreation();
-        File photo = new File("src/test/resources/sec.png");
-        app.contact().fillContactForm(
-                new ContactData().withFirstname("test_name").withLastname("test_surname").withPhoto(photo), true);
-        app.contact().submitContactCreation();
-        app.contact().returnToHomePage();
+//    @Test (enabled = true)
+//    public void testContactCreation() {
+//        app.goTo().gotoHomePage();
+//        app.contact().initContactCreation();
+//        File photo = new File("src/test/resources/sec.png");
+//        app.contact().fillContactForm(
+//                new ContactData().withFirstname("test_name").withLastname("test_surname").withPhoto(photo), true);
+//        app.contact().submitContactCreation();
+//        app.contact().returnToHomePage();
 
 //        app.getNavigationHelper().gotoHomePage();
 //        app.getContactHelper().initContactCreation();
@@ -33,4 +27,4 @@ public class ContactCreationTests extends TestBase {
 //        System.out.println(photo.getAbsolutePath());
 //        System.out.println(photo.exists());
 //    }
-}
+//}
