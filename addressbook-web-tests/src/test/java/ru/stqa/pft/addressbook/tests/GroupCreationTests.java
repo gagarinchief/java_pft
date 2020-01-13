@@ -21,6 +21,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class GroupCreationTests extends TestBase {
 
+
     @DataProvider
     public Iterator<Object[]> validGroupsFromXml() throws IOException {
         try (BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/groups.xml")))) {
@@ -51,6 +52,7 @@ public class GroupCreationTests extends TestBase {
             List<GroupData> groups = gson.fromJson(json, new TypeToken<List<GroupData>>() {
             }.getType()); //List<GroupData.class
             return groups.stream().map((g) -> new Object[]{g}).collect(Collectors.toList()).iterator();
+
         }
 
     }
@@ -64,6 +66,7 @@ public class GroupCreationTests extends TestBase {
         assertThat(after, equalTo(
                 before.withAdded(group.withId(after.stream().mapToInt((g) -> g.getId()).max().getAsInt()))));
         assertThat(after.size(), equalTo(before.size() + 1));
+
     }
 
     public void testBadGroupCreation() {
