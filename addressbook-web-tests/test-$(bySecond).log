@@ -205,3 +205,1484 @@
 365  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
 475  [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate Core {6.0.0.Alpha4}
 481  [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+405  [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+436  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+439  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+447  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+577  [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate Core {6.0.0.Alpha4}
+585  [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+886  [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+887  [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+899  [Test worker] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+1343 [Test worker] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+1374 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+1376 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+1411 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+1577 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@125c1210
+1578 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@125c1210
+1578 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@125c1210
+1578 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@24b3d4ab
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@3927f3fb
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4d109789
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4b2e1dfb
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4b2e1dfb
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4b2e1dfb
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5c847c67
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5c847c67
+1579 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5c847c67
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2f496264
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2f496264
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2f496264
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@44259556
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@5ede9dcb
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5ede9dcb
+1580 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@52dc9e4e
+1581 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapped_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@1bbb46e8
+1581 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@503ea23d
+1581 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@503ea23d
+1581 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@503ea23d
+1581 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@5b655f21
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@5b655f21
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@5b655f21
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@7daee802
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@7daee802
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@7daee802
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5762bfab
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5762bfab
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5762bfab
+1582 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@428e392b
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@428e392b
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@428e392b
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7f30114f
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7f30114f
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3ac6ef6f
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3ac6ef6f
+1583 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@28ed8062
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@28ed8062
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@28ed8062
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character_nchar -> org.hibernate.type.CharacterNCharType@55fc97c8
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@4d510a18
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@4d510a18
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@13658bcc
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@2acf626b
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@2acf626b
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@2acf626b
+1584 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@44a3cac2
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@44a3cac2
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@44a3cac2
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@4940c7be
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@5027f6d3
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@6e3e7a1b
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6e3e7a1b
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@da9c403
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@da9c403
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@8631920
+1585 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_char_array -> org.hibernate.type.internal.StandardBasicTypeImpl@4ba94df3
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_character_array -> org.hibernate.type.internal.StandardBasicTypeImpl@31a6f2e
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@13a0cc74
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_character_array -> org.hibernate.type.internal.StandardBasicTypeImpl@1267cd26
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_char_array -> org.hibernate.type.internal.StandardBasicTypeImpl@30629c4e
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@2534255a
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@2534255a
+1586 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@664b2534
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@664b2534
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@79cd43ae
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@79cd43ae
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@15c6ca28
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@15c6ca28
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@55aa2fbc
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@55aa2fbc
+1587 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@596ca826
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@596ca826
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@63c50a13
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@63c50a13
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@5808148d
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@5808148d
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@44636576
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@44636576
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@750af9a1
+1588 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@750af9a1
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@750af9a1
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@4edc3e79
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4edc3e79
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4edc3e79
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@70bc1ec2
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarTimeType@13b4b386
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [calendar_date] overrides previous : org.hibernate.type.CalendarDateType@70bc1ec2
+1589 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration instant -> org.hibernate.type.InstantType@18ba4103
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@18ba4103
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3163b464
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3163b464
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1cbbe473
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@3057a314
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@3057a314
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@3d4126b8
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Currency -> org.hibernate.type.CurrencyType@3d4126b8
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3d4126b8
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@73d886db
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@73d886db
+1590 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@65344a4d
+1591 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.io.Serializable -> org.hibernate.type.SerializableType@65344a4d
+1591 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7a7760e9
+1591 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7a7760e9
+1591 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@4a446573
+1591 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@4a446573
+1591 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@30ae4b91
+1622 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+1624 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+1625 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+1625 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+1626 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+1628 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+1629 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+1632 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1633 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+1635 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+1635 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+1636 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+1636 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1638 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+1646 [Test worker] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+1666 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook]
+1667 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=, user=root}
+1667 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+1673 [Test worker] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+1674 [Test worker] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+5931 [Test worker] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata : null
+5962 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+5991 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+5998 [Test worker] DEBUG o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+6000 [Test worker] DEBUG o.h.e.jdbc.spi.SqlExceptionHelper - Error calling Driver#connect [null]
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at org.hibernate.engine.jdbc.connections.internal.DriverConnectionCreator.makeConnection(DriverConnectionCreator.java:38)
+	at org.hibernate.engine.jdbc.connections.internal.BasicConnectionCreator.createConnection(BasicConnectionCreator.java:58)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.addConnections(DriverManagerConnectionProviderImpl.java:331)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:250)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections.<init>(DriverManagerConnectionProviderImpl.java:228)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections$Builder.build(DriverManagerConnectionProviderImpl.java:369)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.buildPool(DriverManagerConnectionProviderImpl.java:98)
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure(DriverManagerConnectionProviderImpl.java:73)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:107)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.buildJdbcConnectionAccess(JdbcEnvironmentInitiator.java:145)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:66)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:174)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:117)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:82)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:405)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:79)
+	at org.hibernate.boot.MetadataSources.buildMetadata(MetadataSources.java:193)
+	at ru.stqa.pft.addressbook.tests.HbConnectionTest.setUp(HbConnectionTest.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 83 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 86 common frames omitted
+6003 [Test worker] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 08S01
+6003 [Test worker] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+6039 [Test worker] INFO  o.h.s.i.AbstractServiceRegistryImpl - HHH000369: Error stopping service [class org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl]
+java.lang.NullPointerException: null
+	at org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.stop(DriverManagerConnectionProviderImpl.java:207)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.stopService(AbstractServiceRegistryImpl.java:390)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.destroy(AbstractServiceRegistryImpl.java:373)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.destroy(StandardServiceRegistryImpl.java:129)
+	at org.hibernate.boot.registry.StandardServiceRegistryBuilder.destroy(StandardServiceRegistryBuilder.java:388)
+	at ru.stqa.pft.addressbook.tests.HbConnectionTest.setUp(HbConnectionTest.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+6048 [Test worker] DEBUG o.h.b.r.i.BootstrapServiceRegistryImpl - Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+344  [Test worker] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+366  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+368  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+372  [Test worker] DEBUG o.h.i.i.IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+471  [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate Core {6.0.0.Alpha4}
+477  [Test worker] DEBUG org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+715  [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+715  [Test worker] DEBUG o.h.b.j.i.s.LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+727  [Test worker] DEBUG o.h.b.c.internal.JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+1148 [Test worker] DEBUG o.h.service.spi.ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+1165 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+1166 [Test worker] DEBUG o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+1186 [Test worker] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+1323 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@12da8c9d
+1324 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@12da8c9d
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@12da8c9d
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7ad60faa
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@337aafc3
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@fd57051
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@6937d2df
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@6937d2df
+1325 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@6937d2df
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@8964260
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@8964260
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@8964260
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@8a961d4
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@8a961d4
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@8a961d4
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@6b6b65c6
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@4bdc288e
+1326 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@4bdc288e
+1327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@36895a87
+1327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapped_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@783f64a8
+1327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@382028a3
+1327 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@382028a3
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@382028a3
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@455490ee
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@455490ee
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@455490ee
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@1647b4c4
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@1647b4c4
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@1647b4c4
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@667a0cd3
+1328 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@667a0cd3
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@667a0cd3
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@3d57b535
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@3d57b535
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3d57b535
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@44005eda
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@44005eda
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@2eb1a2a3
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@2eb1a2a3
+1329 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@59e5a276
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@59e5a276
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@59e5a276
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration character_nchar -> org.hibernate.type.CharacterNCharType@67ae7a8d
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@75b23ddc
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@75b23ddc
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@6961a13a
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@5703ca55
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@5703ca55
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@5703ca55
+1330 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@ee21df4
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@ee21df4
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@ee21df4
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@30f82cf
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@72709ba
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@fe4cea9
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@fe4cea9
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@6d904644
+1331 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@6d904644
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@56c7a89c
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_char_array -> org.hibernate.type.internal.StandardBasicTypeImpl@398a6666
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob_character_array -> org.hibernate.type.internal.StandardBasicTypeImpl@7862fea6
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@138a3a7e
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_character_array -> org.hibernate.type.internal.StandardBasicTypeImpl@79d9d73f
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration materialized_nclob_char_array -> org.hibernate.type.internal.StandardBasicTypeImpl@3c11ea70
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@7e0a6e46
+1332 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@7e0a6e46
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@57610458
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@57610458
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@694c3a1d
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@694c3a1d
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@32d5c770
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@32d5c770
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5cce854e
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5cce854e
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@7634a6b5
+1333 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@7634a6b5
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6e80fc61
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6e80fc61
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@1c704339
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1c704339
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@54bf497a
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@54bf497a
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@171cdc71
+1334 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@171cdc71
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@171cdc71
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@2a2a4db7
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@2a2a4db7
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@2a2a4db7
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@b60b7bb
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarTimeType@762c93ed
+1335 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [calendar_date] overrides previous : org.hibernate.type.CalendarDateType@b60b7bb
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration instant -> org.hibernate.type.InstantType@7205db2e
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@7205db2e
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@77a359fd
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@77a359fd
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@11141584
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@7c95caea
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@7c95caea
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@23ce1075
+1336 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration Currency -> org.hibernate.type.CurrencyType@23ce1075
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@23ce1075
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@4057d395
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4057d395
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@4f59e999
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.io.Serializable -> org.hibernate.type.SerializableType@4f59e999
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@1fc8b77f
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1fc8b77f
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@3b4041e7
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@3b4041e7
+1337 [Test worker] DEBUG o.hibernate.type.BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@68c0b727
+1363 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+1364 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+1365 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+1365 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+1365 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+1367 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+1367 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+1369 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1370 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+1370 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+1371 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+1371 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+1371 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+1372 [Test worker] DEBUG o.h.i.f.i.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+1377 [Test worker] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+1393 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/addressbook]
+1394 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=, user=root}
+1394 [Test worker] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+1401 [Test worker] DEBUG o.h.e.j.c.i.DriverManagerConnectionProviderImpl - Initializing Connection pool with 1 Connections
+1401 [Test worker] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+1694 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.5.5-10.4.8-MariaDB
+      major : 5
+      minor : 5
+1695 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.19 (Revision: a0ca826f5cdf51a98356fdfb1bf251eb042f80bf)
+      major : 8
+      minor : 0
+1695 [Test worker] DEBUG o.h.e.j.e.i.JdbcEnvironmentInitiator - JDBC version : 4.2
+1710 [Test worker] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+1732 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+1737 [Test worker] DEBUG o.h.e.j.e.s.IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+1787 [Test worker] DEBUG o.h.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+1794 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7f285206] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@27aab99b]
+1859 [Test worker] DEBUG o.h.b.m.s.i.a.AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [ru.stqa.pft.addressbook.model.ContactData]; ignoring
+1878 [Test worker] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: ru.stqa.pft.addressbook.model.GroupData
+1910 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+1918 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Import with entity name GroupData
+1922 [Test worker] DEBUG o.h.cfg.annotations.EntityBinder - Bind entity ru.stqa.pft.addressbook.model.GroupData on table group_list
+1958 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_id, insertable=true, updatable=true, unique=false}
+1965 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
+1969 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:id]
+1973 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+1979 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property id
+1986 [Test worker] DEBUG org.hibernate.cfg.BinderHelper - #makeIdGenerator(org.hibernate.mapping.BasicValue([org.hibernate.mapping.Column(group_id)]), id, assigned, , ...)
+1987 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_footer, insertable=true, updatable=true, unique=false}
+1987 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property footer with lazy=false
+1987 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:footer]
+1987 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for footer
+1988 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property footer
+1989 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_header, insertable=true, updatable=true, unique=false}
+1989 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property header with lazy=false
+1990 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:header]
+1990 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for header
+1990 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property header
+1991 [Test worker] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(group_list), mappingColumn=group_name, insertable=true, updatable=true, unique=false}
+1991 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - MetadataSourceProcessor property name with lazy=false
+1991 [Test worker] DEBUG o.h.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [ru.stqa.pft.addressbook.model.GroupData:name]
+1991 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+1992 [Test worker] DEBUG o.h.cfg.annotations.PropertyBinder - Building property name
+1996 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for id
+1996 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for footer
+1996 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for header
+1997 [Test worker] DEBUG o.h.c.annotations.SimpleValueBinder - Starting fillSimpleValue for name
+1999 [Test worker] DEBUG org.hibernate.mapping.PrimaryKey - Forcing column [group_id] to be non-null as it is part of the primary key for table [group_list]
+2078 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Building session factory
+2079 [Test worker] DEBUG org.hibernate.cfg.Settings - SessionFactory name : null
+2079 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic flush during beforeCompletion(): enabled
+2079 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic session close at end of transaction: disabled
+2079 [Test worker] DEBUG org.hibernate.cfg.Settings - Statistics: disabled
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Deleted entity synthetic identifier rollback: disabled
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Default entity-mode: pojo
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Allow initialization of lazy state outside session : disabled
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Using BatchFetchStyle : LEGACY
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Default batch fetch size: -1
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Maximum outer join fetch depth: 2
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Default null ordering: NONE
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL updates by primary key: disabled
+2080 [Test worker] DEBUG org.hibernate.cfg.Settings - Order SQL inserts for batching: disabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - multi-tenancy strategy : NONE
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - JTA Track by Thread: enabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Query language substitutions: {}
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Named query checking : enabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache: disabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache: disabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level query cache factory: null
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache region prefix: null
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Optimize second-level cache for minimal puts: disabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Structured second-level cache entries: disabled
+2081 [Test worker] DEBUG org.hibernate.cfg.Settings - Second-level cache direct-reference entries: disabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - Automatic eviction of collection cache: disabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch size: 15
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC batch updates for versioned data: enabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - Scrollable result sets: enabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - Wrap result sets: disabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC3 getGeneratedKeys(): enabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - JDBC result set fetch size: null
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - Connection release mode: AFTER_TRANSACTION
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - Generate SQL with comments: disabled
+2082 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - query : disabled
+2083 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - closed-handling : disabled
+2083 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - lists : disabled
+2083 [Test worker] DEBUG org.hibernate.cfg.Settings - JPA compliance - transactions : disabled
+2195 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+2195 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, dialect=org.hibernate.dialect.MySQL5Dialect, java.specification.version=11, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1251, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, org.gradle.test.worker=2, java.class.path=C:\\Users\\Master\\.gradle\\caches\\6.0\\workerMain\\gradle-worker.jar;D:\\GitHub\\java_pft\\addressbook-web-tests\\build\\classes\\java\\test;D:\\GitHub\\java_pft\\addressbook-web-tests\\build\\resources\\test;D:\\GitHub\\java_pft\\addressbook-web-tests\\build\\classes\\java\\main;D:\\GitHub\\java_pft\\addressbook-web-tests\\build\\resources\\main;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.testng\\testng\\7.1.0\\b0bcea778fb2899aeb4014c558babea8833d180a\\testng-7.1.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-java\\4.0.0-alpha-3\\c43b4c5d0f47c954fd7d40779aa1af215e1ea6bf\\selenium-java-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.hamcrest\\java-hamcrest\\2.0.0.0\\f1c8853ade0ecf707f5a261c830e98893983813\\java-hamcrest-2.0.0.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.beust\\jcommander\\1.78\\a3927de9bd6f351429bcf763712c9890629d8f51\\jcommander-1.78.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.thoughtworks.xstream\\xstream\\1.4.11.1\\6c120c45a8c480bb2fea5b56502e3993ddd74fd2\\xstream-1.4.11.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.gson\\gson\\2.8.6\\9180733b7df8542621dc12e21e87557e8c99b8cb\\gson-2.8.6.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-classic\\1.3.0-alpha5\\3195156aa3b62b2f4407a7841700f2759bebf192\\logback-classic-1.3.0-alpha5.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\mysql\\mysql-connector-java\\8.0.19\\9af69ef0f68eae737351ff55c0ba6e23a06826a5\\mysql-connector-java-8.0.19.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.inject\\guice\\4.1.0\\faf9ee8ac09eafd1128091426dd367a8c0085d55\\guice-4.1.0-no_aop.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.yaml\\snakeyaml\\1.21\\18775fdda48574784f40b47bf478ab0593f92e4d\\snakeyaml-1.21.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-support\\4.0.0-alpha-3\\56fe30b7f8286d983937be744e1592429a80b1e7\\selenium-support-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-chrome-driver\\4.0.0-alpha-3\\75b6fef517cdff403de688a35e4129de1070d1c2\\selenium-chrome-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-edgehtml-driver\\4.0.0-alpha-3\\12881a7863752dc556a47b4944d0327bd8273878\\selenium-edgehtml-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-edge-driver\\4.0.0-alpha-3\\20047ba68fab57d1379553f172c24f552516768e\\selenium-edge-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-firefox-xpi-driver\\4.0.0-alpha-3\\e63e158d90cb947618cd0879905928562f64ec0b\\selenium-firefox-xpi-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-ie-driver\\4.0.0-alpha-3\\b6a0c19734016945f186d7cfd8be5f933f091e\\selenium-ie-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-opera-driver\\4.0.0-alpha-3\\71b484733680878dfa3187dde440d8c519494868\\selenium-opera-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-firefox-driver\\4.0.0-alpha-3\\132322f6a7f221dddc9b8e89c5afd3a790717243\\selenium-firefox-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-safari-driver\\4.0.0-alpha-3\\c141131a43b4e47c9807c71340e6fdd422119905\\selenium-safari-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-chromium-driver\\4.0.0-alpha-3\\e381572dd2bdf12d72f8d4d163b04d36168be20a\\selenium-chromium-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-devtools\\4.0.0-alpha-3\\40f4ef596fc8179edc36dff75a981a2e3072ad9c\\selenium-devtools-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-remote-driver\\4.0.0-alpha-3\\e1f050997120e47d12819cdf8db5b260b75433bc\\selenium-remote-driver-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-http\\4.0.0-alpha-3\\42d2d579633c55a3de4170c397ea228dd2f055ba\\selenium-http-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-json\\4.0.0-alpha-3\\17afddd52d686a8b3620083e3f5ae209602c2da9\\selenium-json-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.seleniumhq.selenium\\selenium-api\\4.0.0-alpha-3\\dfe422f572251cb5b2c534ba0fc11fab19afbf50\\selenium-api-4.0.0-alpha-3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\xmlpull\\xmlpull\\1.1.3.1\\2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa\\xmlpull-1.1.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\xpp3\\xpp3_min\\1.1.4c\\19d4e90b43059058f6e056f794f0ea4030d60b86\\xpp3_min-1.1.4c.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-core\\1.3.0-alpha5\\4f3163d95c96b7be69d9e5245573834fd130a4bb\\logback-core-1.3.0-alpha5.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\2.0.0-alpha1\\e979781e847d44d3618c4479d438956593b6b080\\slf4j-api-2.0.0-alpha1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.mail\\javax.mail\\1.6.2\\935151eb71beff17a2ffac15dd80184a99a0514f\\javax.mail-1.6.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\edu.washington.cs.types.checker\\checker-framework\\1.7.0\\f652eb570f82dea2f7718c23f81b759c0c8e5ccf\\checker-framework-1.7.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.protobuf\\protobuf-java\\3.6.1\\d06d46ecfd92ec6d0f3b423b4cd81cb38d8b924\\protobuf-java-3.6.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.orm\\hibernate-core\\6.0.0.Alpha4\\8717f2f65a615f92ba767bc9a3dee6bb0e9ff001\\hibernate-core-6.0.0.Alpha4.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\javax.inject\\javax.inject\\1\\6975da39a7040257bd51d21a231b76c915872d38\\javax.inject-1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\aopalliance\\aopalliance\\1.0\\235ba8b489512805ac13a8f9ea77a1ca5ebe3e8\\aopalliance-1.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\guava\\27.1-jre\\e47b59c893079b87743cdcfb6f17ca95c08c592c\\guava-27.1-jre.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okhttp3\\okhttp\\4.0.1\\4e606430c80c69b744d19c6ca1b269b68e297040\\okhttp-4.0.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\io.opentracing\\opentracing-api\\0.33.0\\67336cfb9d93779c02e1fda4c87801d352720eda\\opentracing-api-0.33.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy\\1.10.2\\7e575b4d8eb3041728fb7dac4fa09bf163c5ee9\\byte-buddy-1.10.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.commons\\commons-exec\\1.3\\8dfb9facd0830a27b1b5f29f84593f0aeee7773b\\commons-exec-1.3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\activation\\1.1\\e6cb541461c2834bdea3eb920f1884d1eb508b50\\activation-1.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.vintage\\junit-vintage-engine\\5.3.1\\48e21c1c1a7c1dde68c2f71181b3e86927c7923e\\junit-vintage-engine-5.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-engine\\5.3.1\\e2676b1786c57a80eb98f5bebd51a3d05e228c40\\junit-jupiter-engine-5.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.hibernate.common\\hibernate-commons-annotations\\5.1.0.Final\\700aeedc4a2089816621948f0379e17cbd17d5db\\hibernate-commons-annotations-5.1.0.Final.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.logging\\jboss-logging\\3.3.2.Final\\3789d00e859632e6c6206adc0c71625559e6e3b0\\jboss-logging-3.3.2.Final.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\javax.persistence\\javax.persistence-api\\2.2\\25665ac8c0b62f50e6488173233239120fc52c96\\javax.persistence-api-2.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.javassist\\javassist\\3.24.0-GA\\d7466fc2e3af7c023e95c510f06448ad29b225b3\\javassist-3.24.0-GA.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4\\4.7.1\\51ef964b44323720bef371d569796af1f4e225ac\\antlr4-4.7.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss.spec.javax.transaction\\jboss-transaction-api_1.2_spec\\1.1.1.Final\\a8485cab9484dda36e9a8c319e76b5cc18797b58\\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jboss\\jandex\\2.1.1.Final\\c89aa5564fea8b08b9b41f0bbcabb8fed0d89c0d\\jandex-2.1.1.Final.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.fasterxml\\classmate\\1.5.1\\3fe0bed568c62df5e89f4f174c101eab25345b6c\\classmate-1.5.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\jaxb-runtime\\2.3.1\\dd6dda9da676a54c5b36ca2806ff95ee017d8738\\jaxb-runtime-2.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\javax.xml.bind\\jaxb-api\\2.3.1\\8531ad5ac454cc2deb9d4d32c40c4d7451939b5d\\jaxb-api-2.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\javax.activation\\javax.activation-api\\1.2.0\\85262acf3ca9816f9537ca47d5adeabaead7cb16\\javax.activation-api-1.2.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.dom4j\\dom4j\\2.1.1\\3dce5dbb3571aa820c677fadd8349bfa8f00c199\\dom4j-2.1.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\failureaccess\\1.0.1\\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\\failureaccess-1.0.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.guava\\listenablefuture\\9999.0-empty-to-avoid-conflict-with-guava\\b421526c5f297295adef1c886e5246c39d4ac629\\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.code.findbugs\\jsr305\\3.0.2\\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\\jsr305-3.0.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.checkerframework\\checker-qual\\2.5.2\\cea74543d5904a30861a61b4643a5f2bb372efc4\\checker-qual-2.5.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.errorprone\\error_prone_annotations\\2.2.0\\88e3c593e9b3586e1c6177f89267da6fc6986f0c\\error_prone_annotations-2.2.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.google.j2objc\\j2objc-annotations\\1.1\\ed28ded51a8b1c6b112568def5f4b455e6809019\\j2objc-annotations-1.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.codehaus.mojo\\animal-sniffer-annotations\\1.17\\f97ce6decaea32b36101e37979f8b647f00681fb\\animal-sniffer-annotations-1.17.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.squareup.okio\\okio\\2.2.2\\36f483536153f15339a8b48d508e22be7c9c531a\\okio-2.2.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib\\1.3.40\\b8a521c687329303778548e2f09b0ba5b2665236\\kotlin-stdlib-1.3.40.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-engine\\1.3.1\\3ee68a06bbdab157dd260e2095c356481d6cd172\\junit-platform-engine-1.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-api\\5.3.1\\a7e97eac2784395cb991403f9641b042ad972941\\junit-jupiter-api-5.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-commons\\1.3.1\\67b7edddfac1935e6e6d9b58d7c7df6db59b1d39\\junit-platform-commons-1.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.apiguardian\\apiguardian-api\\1.0.0\\3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d\\apiguardian-api-1.0.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\junit\\junit\\4.12\\2973d150c0dc1fefe998f834810d68f278ea58ec\\junit-4.12.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr4-runtime\\4.7.1\\946f8aa9daa917dd81a8b818111bec7e288f821a\\antlr4-runtime-4.7.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\ST4\\4.0.8\\a1c55e974f8a94d78e2348fa6ff63f4fa1fae64\\ST4-4.0.8.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.antlr\\antlr-runtime\\3.5.2\\cd9cd41361c155f3af0f653009dcecb08d8b4afd\\antlr-runtime-3.5.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.abego.treelayout\\org.abego.treelayout.core\\1.0.3\\457216e8e6578099ae63667bb1e4439235892028\\org.abego.treelayout.core-1.0.3.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish\\javax.json\\1.0.4\\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\\javax.json-1.0.4.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.ibm.icu\\icu4j\\58.2\\db9fd4b4c189cf1518db14c67d14a2cfcfbe59f6\\icu4j-58.2.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.glassfish.jaxb\\txw2\\2.3.1\\a09d2c48d3285f206fafbffe0e50619284e92126\\txw2-2.3.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.istack\\istack-commons-runtime\\3.0.7\\c197c86ceec7318b1284bffb49b54226ca774003\\istack-commons-runtime-3.0.7.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jvnet.staxex\\stax-ex\\1.8\\8cc35f73da321c29973191f2cf143d29d26a1df7\\stax-ex-1.8.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\com.sun.xml.fastinfoset\\FastInfoset\\1.2.15\\bb7b7ec0379982b97c62cd17465cb6d9155f68e8\\FastInfoset-1.2.15.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains.kotlin\\kotlin-stdlib-common\\1.3.40\\ff8f3da514fc2877d1303d55e22d6da8156c29fb\\kotlin-stdlib-common-1.3.40.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.jetbrains\\annotations\\13.0\\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\\annotations-13.0.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.opentest4j\\opentest4j\\1.1.1\\efd9f971e91074491ea55b19f67b13470cf4fcdd\\opentest4j-1.1.1.jar;C:\\Users\\Master\\.gradle\\caches\\modules-2\\files-2.1\\org.hamcrest\\hamcrest-core\\1.3\\42a25dc3219429f0e5d060061f71acb49bf010a0\\hamcrest-core-1.3.jar, java.vm.vendor=JetBrains s.r.o, sun.arch.data.model=64, hbm2ddl.auto=validate, user.variant=, java.vendor.url=https://www.jetbrains.com/, user.timezone=America/New_York, os.name=Windows 10, java.vm.specification.version=11, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\jbr\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 2', jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Master, user.language=en, java.specification.vendor=Oracle Corporation, org.gradle.native=false, hibernate.cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, java.version.date=2019-10-15, java.home=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\jbr, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, cache.provider_class=org.hibernate.cache.internal.NoCacheProvider, hibernate.hbm2ddl.auto=validate, user.script=, connection.password=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.5+10-b520.17, user.name=Master, path.separator=;, hibernate.connection.username=****, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/addressbook, connection.pool_size=1, file.encoding=windows-1251, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, show_sql=true, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://youtrack.jetbrains.com, java.io.tmpdir=C:\Users\Master\AppData\Local\Temp\, java.version=11.0.5, user.dir=D:\GitHub\java_pft\addressbook-web-tests, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, hibernate.connection.password=****, sun.os.patch.level=, connection.driver_class=com.mysql.cj.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@1d9a1366, java.library.path=C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\jbr\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\System32\OpenSSH\;%GRADLE_HOME%;C:\Program Files\Git\cmd;C:\Program Files\EmEditor;C:\Gradle\gradle-6.0\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\Master\AppData\Local\Microsoft\WindowsApps;C:\Users\Master\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\bin;C:\Users\Master\AppData\Local\GitHubDesktop\bin;., java.vendor=JetBrains s.r.o, java.vm.info=mixed mode, java.vm.version=11.0.5+10-b520.17, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, hibernate.connection.pool_size=1, connection.url=jdbc:mysql://localhost:3306/addressbook, java.class.version=55.0}
+2197 [Test worker] DEBUG o.h.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
+2198 [Test worker] DEBUG o.h.internal.SessionFactoryImpl - Instantiated session factory
+2230 [Test worker] DEBUG o.h.t.spi.TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@7f285206] to SessionFactoryImplementor [org.hibernate.internal.SessionFactoryImpl@41665a1e]
+2353 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.GroupData] is safe
+2353 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.GroupData
+2381 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - Not known whether passed class name [ru.stqa.pft.addressbook.model.GroupData] is safe
+2381 [Test worker] DEBUG o.h.b.i.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : ru.stqa.pft.addressbook.model.GroupData
+2727 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister - Static SQL for entity: ru.stqa.pft.addressbook.model.GroupData
+2727 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Version select: select group_id from group_list where group_id =?
+2727 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Snapshot select: select groupdata_.group_id, groupdata_.group_footer as group_fo2_0_, groupdata_.group_header as group_he3_0_, groupdata_.group_name as group_na4_0_ from group_list groupdata_ where groupdata_.group_id=?
+2727 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Insert 0: insert into group_list (group_footer, group_header, group_name, group_id) values (?, ?, ?, ?)
+2727 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Update 0: update group_list set group_footer=?, group_header=?, group_name=? where group_id=?
+2727 [Test worker] DEBUG o.h.p.e.AbstractEntityPersister -  Delete 0: delete from group_list where group_id=?
+2791 [Test worker] DEBUG org.hibernate.orm.query.plan.cache - Starting QueryPlanCache(2048)
+2853 [Test worker] DEBUG o.h.q.named.NamedQueryRepository - Checking 0 named HQL queries
+2853 [Test worker] DEBUG o.h.q.named.NamedQueryRepository - Checking 0 named SQL queries
+2874 [Test worker] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@361648ee] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+3031 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+3032 [Test worker] DEBUG o.h.e.t.j.p.i.JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+3043 [Test worker] DEBUG o.h.e.t.j.p.i.StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3043 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3057 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3c4de608
+3060 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Registering SessionFactory: 114a43dc-a222-4f5e-8925-857faf94082b (<unnamed>)
+3060 [Test worker] DEBUG o.h.internal.SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+3160 [Test worker] DEBUG o.h.s.internal.StatisticsInitiator - Statistics initialized [enabled=false]
+3167 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+3168 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - begin
+3178 [Test worker] DEBUG org.hibernate.orm.query.plan.cache - Creating and caching HqlInterpretation - from GroupData
+3395 [Test worker] DEBUG o.h.q.h.i.SemanticQueryBuilder - Handling root path - GroupData
+3407 [Test worker] DEBUG o.h.q.h.i.SemanticQueryBuilder - Encountered implicit select clause : fromGroupData
+3418 [Test worker] DEBUG org.hibernate.orm.query.sqm.ast - SqmStatement Tree :
+    -> [select]
+      -> [query-spec]
+        -> [select]
+          -> [selection]
+            -> [root] - `ru.stqa.pft.addressbook.model.GroupData`
+            <- [root] - `ru.stqa.pft.addressbook.model.GroupData`
+          <- [selection]
+        <- [select]
+        -> [from]
+          -> [root] - `ru.stqa.pft.addressbook.model.GroupData`
+          <- [root] - `ru.stqa.pft.addressbook.model.GroupData`
+        <- [from]
+      <- [query-spec]
+    <- [select]
+
+3472 [Test worker] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : g1_0
+3509 [Test worker] DEBUG org.hibernate.orm.sql.ast.tree - Error processing node {query-spec}
+java.lang.NullPointerException: null
+	at org.hibernate.sql.ast.SqlTreePrinter.lambda$visitQuerySpec$18(SqlTreePrinter.java:250)
+	at org.hibernate.sql.ast.SqlTreePrinter.logNode(SqlTreePrinter.java:189)
+	at org.hibernate.sql.ast.SqlTreePrinter.logNode(SqlTreePrinter.java:178)
+	at org.hibernate.sql.ast.SqlTreePrinter.visitQuerySpec(SqlTreePrinter.java:234)
+	at org.hibernate.sql.ast.SqlTreePrinter.lambda$visitStatement$0(SqlTreePrinter.java:78)
+	at org.hibernate.sql.ast.SqlTreePrinter.logNode(SqlTreePrinter.java:189)
+	at org.hibernate.sql.ast.SqlTreePrinter.logNode(SqlTreePrinter.java:178)
+	at org.hibernate.sql.ast.SqlTreePrinter.visitStatement(SqlTreePrinter.java:76)
+	at org.hibernate.sql.ast.SqlTreePrinter.print(SqlTreePrinter.java:63)
+	at org.hibernate.sql.ast.spi.StandardSqlAstSelectTranslator.translate(StandardSqlAstSelectTranslator.java:85)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.buildCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:230)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.resolveCacheableSqmInterpretation(ConcreteSqmSelectQueryPlan.java:191)
+	at org.hibernate.query.sqm.internal.ConcreteSqmSelectQueryPlan.performList(ConcreteSqmSelectQueryPlan.java:153)
+	at org.hibernate.query.sqm.internal.QuerySqmImpl.doList(QuerySqmImpl.java:413)
+	at org.hibernate.query.spi.AbstractQuery.list(AbstractQuery.java:1356)
+	at ru.stqa.pft.addressbook.tests.HbConnectionTest.testHbConnection(HbConnectionTest.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+3514 [Test worker] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    -> [select-statement]
+      -> [query-spec]
+        -> [select]
+          selection - org.hibernate.sql.results.internal.SqlSelectionImpl@40d6b1ae
+          selection - org.hibernate.sql.results.internal.SqlSelectionImpl@c93ec8e
+          selection - org.hibernate.sql.results.internal.SqlSelectionImpl@f6a1d60
+          selection - org.hibernate.sql.results.internal.SqlSelectionImpl@6430d9fe
+        <- [select]
+        -> [from]
+          -> [table-group]
+            -> [group_list as g1_0]
+          <- [table-group]
+        <- [from]
+      <- [query-spec]
+    <- [select-statement]
+
+3529 [Test worker] DEBUG o.h.s.e.i.JdbcSelectExecutorStandardImpl - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+3543 [Test worker] DEBUG org.hibernate.orm.sql.results - Adding initializer : EntityRootInitializer(ru.stqa.pft.addressbook.model.GroupData)
+3551 [Test worker] DEBUG org.hibernate.SQL - select g1_0.group_id, g1_0.group_footer, g1_0.group_header, g1_0.group_name from group_list as g1_0
+3608 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3612 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [19]
+3612 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 19
+3625 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#19] : GroupData{id='19', name='null'}
+3627 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [Test 3]
+3627 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [Test 2]
+3627 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [19]
+3636 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#19
+3636 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3637 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [20]
+3637 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 20
+3637 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#20] : GroupData{id='20', name='null'}
+3637 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [Test 3]
+3637 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [Test 2]
+3637 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [20]
+3637 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#20
+3637 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3637 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [25]
+3638 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 25
+3638 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#25] : GroupData{id='25', name='null'}
+3638 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [Test 3]
+3638 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [Test 2]
+3638 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [Test 1]
+3638 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#25
+3639 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3639 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [27]
+3639 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 27
+3639 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#27] : GroupData{id='27', name='null'}
+3639 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [Test 3]
+3640 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [Test 2]
+3640 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [Test 1]
+3640 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#27
+3640 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3640 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [30]
+3640 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 30
+3640 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#30] : GroupData{id='30', name='null'}
+3641 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - []
+3641 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - []
+3641 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test2]
+3641 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#30
+3641 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3641 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [31]
+3641 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 31
+3641 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#31] : GroupData{id='31', name='null'}
+3641 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - []
+3642 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - []
+3642 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test1]
+3642 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#31
+3642 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3642 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [32]
+3642 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 32
+3642 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#32] : GroupData{id='32', name='null'}
+3643 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - []
+3643 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - []
+3643 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test2]
+3643 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#32
+3643 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3643 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [33]
+3643 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 33
+3643 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#33] : GroupData{id='33', name='null'}
+3643 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - []
+3644 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - []
+3644 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test3]
+3644 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#33
+3644 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3644 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [34]
+3644 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 34
+3644 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#34] : GroupData{id='34', name='null'}
+3644 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 1]
+3645 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 1]
+3645 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 1]
+3645 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#34
+3645 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3645 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [35]
+3645 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 35
+3645 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#35] : GroupData{id='35', name='null'}
+3645 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 2]
+3645 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 2]
+3645 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 2]
+3646 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#35
+3646 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3646 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [36]
+3646 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 36
+3646 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#36] : GroupData{id='36', name='null'}
+3646 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 3]
+3646 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 3]
+3646 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 3]
+3647 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#36
+3647 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3647 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [37]
+3647 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 37
+3647 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#37] : GroupData{id='37', name='null'}
+3647 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 1]
+3647 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 1]
+3647 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 1]
+3648 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#37
+3648 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3648 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [38]
+3648 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 38
+3648 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#38] : GroupData{id='38', name='null'}
+3648 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 2]
+3649 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 2]
+3649 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 2]
+3649 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#38
+3649 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3649 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [39]
+3650 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 39
+3650 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#39] : GroupData{id='39', name='null'}
+3650 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 3]
+3650 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 3]
+3650 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 3]
+3650 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#39
+3650 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3650 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [40]
+3651 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 40
+3651 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#40] : GroupData{id='40', name='null'}
+3651 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 0]
+3651 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 0]
+3651 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 0]
+3651 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#40
+3651 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3651 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [41]
+3652 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 41
+3653 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#41] : GroupData{id='41', name='null'}
+3653 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 1]
+3653 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 1]
+3653 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 1]
+3654 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#41
+3654 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3654 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [42]
+3654 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 42
+3654 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#42] : GroupData{id='42', name='null'}
+3654 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 2]
+3654 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 2]
+3654 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 2]
+3654 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#42
+3655 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3655 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [43]
+3655 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 43
+3655 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#43] : GroupData{id='43', name='null'}
+3655 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 3]
+3655 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 3]
+3655 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 3]
+3655 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#43
+3655 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3655 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [44]
+3655 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 44
+3656 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#44] : GroupData{id='44', name='null'}
+3656 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 4]
+3656 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 4]
+3656 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 4]
+3656 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#44
+3656 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3656 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [45]
+3656 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 45
+3656 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#45] : GroupData{id='45', name='null'}
+3656 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 5]
+3656 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 5]
+3657 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 5]
+3657 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#45
+3657 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3657 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [46]
+3657 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 46
+3657 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#46] : GroupData{id='46', name='null'}
+3657 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 6]
+3657 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 6]
+3657 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 6]
+3657 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#46
+3658 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3658 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [47]
+3658 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 47
+3658 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#47] : GroupData{id='47', name='null'}
+3658 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 7]
+3658 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 7]
+3658 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 7]
+3658 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#47
+3658 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3659 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [48]
+3659 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 48
+3659 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#48] : GroupData{id='48', name='null'}
+3659 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 8]
+3659 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 8]
+3659 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 8]
+3659 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#48
+3659 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3659 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [49]
+3659 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 49
+3659 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#49] : GroupData{id='49', name='null'}
+3660 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 9]
+3660 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 9]
+3660 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 9]
+3660 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#49
+3660 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3660 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [50]
+3660 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 50
+3660 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#50] : GroupData{id='50', name='null'}
+3660 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 10]
+3660 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 10]
+3661 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 10]
+3661 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#50
+3661 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3661 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [51]
+3661 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 51
+3661 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#51] : GroupData{id='51', name='null'}
+3661 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 11]
+3661 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 11]
+3661 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 11]
+3661 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#51
+3662 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3662 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [52]
+3662 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 52
+3662 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#52] : GroupData{id='52', name='null'}
+3662 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 12]
+3662 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 12]
+3662 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 12]
+3662 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#52
+3662 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3663 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [53]
+3663 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 53
+3663 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#53] : GroupData{id='53', name='null'}
+3663 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 13]
+3663 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 13]
+3663 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 13]
+3663 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#53
+3663 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3663 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [54]
+3663 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 54
+3663 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#54] : GroupData{id='54', name='null'}
+3664 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 14]
+3664 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 14]
+3664 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 14]
+3664 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#54
+3664 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3664 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [55]
+3664 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 55
+3664 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#55] : GroupData{id='55', name='null'}
+3664 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 15]
+3665 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 15]
+3665 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 15]
+3665 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#55
+3665 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3666 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [56]
+3666 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 56
+3667 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#56] : GroupData{id='56', name='null'}
+3667 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 16]
+3667 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 16]
+3667 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 16]
+3667 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#56
+3667 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3667 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [57]
+3668 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 57
+3668 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#57] : GroupData{id='57', name='null'}
+3668 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 17]
+3668 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 17]
+3668 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 17]
+3668 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#57
+3668 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3668 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [58]
+3668 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 58
+3668 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#58] : GroupData{id='58', name='null'}
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 18]
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 18]
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 18]
+3669 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#58
+3669 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [59]
+3669 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 59
+3669 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#59] : GroupData{id='59', name='null'}
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 19]
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 19]
+3669 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 19]
+3670 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#59
+3670 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3670 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [60]
+3670 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 60
+3670 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#60] : GroupData{id='60', name='null'}
+3670 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 0]
+3670 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 0]
+3670 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 0]
+3670 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#60
+3670 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3670 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [61]
+3671 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 61
+3671 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#61] : GroupData{id='61', name='null'}
+3671 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 1]
+3671 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 1]
+3671 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 1]
+3671 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#61
+3672 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3672 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [62]
+3672 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 62
+3672 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#62] : GroupData{id='62', name='null'}
+3672 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 2]
+3672 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 2]
+3672 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 2]
+3672 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#62
+3672 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3672 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [63]
+3673 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 63
+3673 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#63] : GroupData{id='63', name='null'}
+3673 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 3]
+3673 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 3]
+3673 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 3]
+3673 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#63
+3673 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3673 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [64]
+3673 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 64
+3673 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#64] : GroupData{id='64', name='null'}
+3674 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 4]
+3674 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 4]
+3674 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 4]
+3674 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#64
+3674 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3674 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [65]
+3674 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 65
+3675 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#65] : GroupData{id='65', name='null'}
+3675 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 5]
+3675 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 5]
+3675 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 5]
+3675 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#65
+3675 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3675 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [66]
+3675 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 66
+3675 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#66] : GroupData{id='66', name='null'}
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 6]
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 6]
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 6]
+3676 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#66
+3676 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [67]
+3676 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 67
+3676 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#67] : GroupData{id='67', name='null'}
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 7]
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 7]
+3676 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 7]
+3676 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#67
+3677 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3677 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [68]
+3677 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 68
+3677 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#68] : GroupData{id='68', name='null'}
+3677 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 8]
+3677 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 8]
+3677 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 8]
+3677 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#68
+3677 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3678 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [69]
+3678 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 69
+3678 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#69] : GroupData{id='69', name='null'}
+3678 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 9]
+3678 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 9]
+3678 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 9]
+3678 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#69
+3679 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3679 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [70]
+3679 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 70
+3679 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#70] : GroupData{id='70', name='null'}
+3679 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 10]
+3679 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 10]
+3679 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 10]
+3679 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#70
+3680 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3680 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [71]
+3680 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 71
+3680 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#71] : GroupData{id='71', name='null'}
+3680 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 11]
+3680 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 11]
+3680 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 11]
+3680 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#71
+3680 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3680 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [72]
+3680 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 72
+3681 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#72] : GroupData{id='72', name='null'}
+3681 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 12]
+3681 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 12]
+3681 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 12]
+3681 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#72
+3681 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3681 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [73]
+3681 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 73
+3681 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#73] : GroupData{id='73', name='null'}
+3681 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 13]
+3682 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 13]
+3682 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 13]
+3682 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#73
+3682 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3682 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [74]
+3682 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 74
+3683 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#74] : GroupData{id='74', name='null'}
+3683 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 14]
+3683 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 14]
+3683 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 14]
+3683 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#74
+3683 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3683 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [75]
+3683 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 75
+3683 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#75] : GroupData{id='75', name='null'}
+3683 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 15]
+3683 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 15]
+3684 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 15]
+3684 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#75
+3684 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3684 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [76]
+3684 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 76
+3684 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#76] : GroupData{id='76', name='null'}
+3684 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 16]
+3684 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 16]
+3684 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 16]
+3684 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#76
+3684 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3684 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [77]
+3685 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 77
+3685 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#77] : GroupData{id='77', name='null'}
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 17]
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 17]
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 17]
+3685 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#77
+3685 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [78]
+3685 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 78
+3685 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#78] : GroupData{id='78', name='null'}
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 18]
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 18]
+3685 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 18]
+3686 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#78
+3686 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3686 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [79]
+3686 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 79
+3686 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#79] : GroupData{id='79', name='null'}
+3686 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 19]
+3686 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 19]
+3686 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 19]
+3686 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#79
+3686 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3686 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [80]
+3686 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 80
+3686 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#80] : GroupData{id='80', name='null'}
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 0]
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 0]
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 0]
+3687 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#80
+3687 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [81]
+3687 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 81
+3687 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#81] : GroupData{id='81', name='null'}
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 1]
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 1]
+3687 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 1]
+3687 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#81
+3688 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [82]
+3688 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 82
+3688 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#82] : GroupData{id='82', name='null'}
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 2]
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 2]
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 2]
+3688 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#82
+3688 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [83]
+3688 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 83
+3688 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#83] : GroupData{id='83', name='null'}
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 3]
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 3]
+3688 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 3]
+3689 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#83
+3689 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3689 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [84]
+3689 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 84
+3689 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#84] : GroupData{id='84', name='null'}
+3689 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 4]
+3689 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 4]
+3689 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 4]
+3689 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#84
+3689 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3689 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [85]
+3689 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 85
+3689 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#85] : GroupData{id='85', name='null'}
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 5]
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 5]
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 5]
+3690 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#85
+3690 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [86]
+3690 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 86
+3690 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#86] : GroupData{id='86', name='null'}
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 6]
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 6]
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 6]
+3690 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#86
+3690 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3690 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [87]
+3690 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 87
+3691 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#87] : GroupData{id='87', name='null'}
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 7]
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 7]
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 7]
+3691 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#87
+3691 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [88]
+3691 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 88
+3691 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#88] : GroupData{id='88', name='null'}
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 8]
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 8]
+3691 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 8]
+3691 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#88
+3691 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [89]
+3692 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 89
+3692 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#89] : GroupData{id='89', name='null'}
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 9]
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 9]
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 9]
+3692 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#89
+3692 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [90]
+3692 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 90
+3692 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#90] : GroupData{id='90', name='null'}
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 10]
+3692 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 10]
+3693 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 10]
+3693 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#90
+3693 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3693 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [91]
+3693 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 91
+3693 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#91] : GroupData{id='91', name='null'}
+3693 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 11]
+3693 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 11]
+3693 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 11]
+3693 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#91
+3693 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3693 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [92]
+3693 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 92
+3693 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#92] : GroupData{id='92', name='null'}
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 12]
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 12]
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 12]
+3694 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#92
+3694 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [93]
+3694 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 93
+3694 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#93] : GroupData{id='93', name='null'}
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 13]
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 13]
+3694 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 13]
+3694 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#93
+3694 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [94]
+3695 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 94
+3695 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#94] : GroupData{id='94', name='null'}
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 14]
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 14]
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 14]
+3695 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#94
+3695 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [95]
+3695 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 95
+3695 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#95] : GroupData{id='95', name='null'}
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 15]
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 15]
+3695 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 15]
+3695 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#95
+3696 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3696 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [96]
+3696 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 96
+3696 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#96] : GroupData{id='96', name='null'}
+3696 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 16]
+3696 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 16]
+3696 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 16]
+3696 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#96
+3696 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3696 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [97]
+3696 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 97
+3696 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#97] : GroupData{id='97', name='null'}
+3696 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 17]
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 17]
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 17]
+3697 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#97
+3697 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [98]
+3697 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 98
+3697 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#98] : GroupData{id='98', name='null'}
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 18]
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 18]
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 18]
+3697 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#98
+3697 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3697 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [99]
+3697 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 99
+3698 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#99] : GroupData{id='99', name='null'}
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 19]
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 19]
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 19]
+3698 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#99
+3698 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [100]
+3698 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 100
+3698 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#100] : GroupData{id='100', name='null'}
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 0]
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 0]
+3698 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 0]
+3699 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#100
+3699 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3699 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [101]
+3699 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 101
+3699 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#101] : GroupData{id='101', name='null'}
+3699 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 1]
+3699 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 1]
+3699 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 1]
+3699 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#101
+3699 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3699 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [102]
+3699 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 102
+3699 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#102] : GroupData{id='102', name='null'}
+3699 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 2]
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 2]
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 2]
+3700 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#102
+3700 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [103]
+3700 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 103
+3700 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#103] : GroupData{id='103', name='null'}
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 3]
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 3]
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 3]
+3700 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#103
+3700 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [104]
+3700 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 104
+3700 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#104] : GroupData{id='104', name='null'}
+3700 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 4]
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 4]
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 4]
+3701 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#104
+3701 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [105]
+3701 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 105
+3701 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#105] : GroupData{id='105', name='null'}
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 5]
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 5]
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 5]
+3701 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#105
+3701 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3701 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [106]
+3701 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 106
+3702 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#106] : GroupData{id='106', name='null'}
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 6]
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 6]
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 6]
+3702 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#106
+3702 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [107]
+3702 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 107
+3702 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#107] : GroupData{id='107', name='null'}
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 7]
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 7]
+3702 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 7]
+3702 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#107
+3703 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [108]
+3703 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 108
+3703 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#108] : GroupData{id='108', name='null'}
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 8]
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 8]
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 8]
+3703 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#108
+3703 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [109]
+3703 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 109
+3703 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#109] : GroupData{id='109', name='null'}
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 9]
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 9]
+3703 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 9]
+3704 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#109
+3704 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3704 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [110]
+3704 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 110
+3704 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#110] : GroupData{id='110', name='null'}
+3704 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 10]
+3704 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 10]
+3704 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 10]
+3704 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#110
+3704 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3704 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [111]
+3704 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 111
+3704 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#111] : GroupData{id='111', name='null'}
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 11]
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 11]
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 11]
+3705 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#111
+3705 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [112]
+3705 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 112
+3705 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#112] : GroupData{id='112', name='null'}
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 12]
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 12]
+3705 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 12]
+3705 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#112
+3705 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [113]
+3706 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 113
+3706 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#113] : GroupData{id='113', name='null'}
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 13]
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 13]
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 13]
+3706 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#113
+3706 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [114]
+3706 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 114
+3706 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#114] : GroupData{id='114', name='null'}
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 14]
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 14]
+3706 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 14]
+3707 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#114
+3707 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3707 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [115]
+3707 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 115
+3707 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#115] : GroupData{id='115', name='null'}
+3707 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 15]
+3707 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 15]
+3707 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 15]
+3707 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#115
+3707 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3707 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [116]
+3707 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 116
+3708 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#116] : GroupData{id='116', name='null'}
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 16]
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 16]
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 16]
+3708 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#116
+3708 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [117]
+3708 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 117
+3708 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#117] : GroupData{id='117', name='null'}
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 17]
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 17]
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 17]
+3708 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#117
+3708 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3708 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [118]
+3709 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 118
+3709 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#118] : GroupData{id='118', name='null'}
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 18]
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 18]
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 18]
+3709 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#118
+3709 [Test worker] DEBUG o.h.s.r.internal.StandardRowReader - ---Processing Row---
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [0] - [119]
+3709 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - (o.h.s.r.g.e.i.EntityResultInitializer) Hydrated EntityKey (NavigablePath[ru.stqa.pft.addressbook.model.GroupData]): 119
+3709 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Created new entity instance [ru.stqa.pft.addressbook.model.GroupData#119] : GroupData{id='119', name='null'}
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [1] - [footer 19]
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [2] - [header 19]
+3709 [Test worker] DEBUG org.hibernate.orm.sql.results - Extracted JDBC value [3] - [test 19]
+3709 [Test worker] DEBUG o.h.orm.sql.resultsloading.entity - Done materializing entityInstance : ru.stqa.pft.addressbook.model.GroupData#119
+3710 [Test worker] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+3809 [Test worker] DEBUG o.h.e.t.internal.TransactionImpl - committing
+3810 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+3836 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+3859 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 94 objects
+3859 [Test worker] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+3862 [Test worker] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+3863 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=test2, header=, id=32}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=test3, header=, id=33}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=test2, header=, id=30}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=, name=test1, header=, id=31}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=Test 3, name=Test 1, header=Test 2, id=27}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=Test 3, name=Test 1, header=Test 2, id=25}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=Test 3, name=20, header=Test 2, id=20}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=Test 3, name=19, header=Test 2, id=19}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 8, name=test 8, header=header 8, id=48}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 9, name=test 9, header=header 9, id=49}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 6, name=test 6, header=header 6, id=46}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 7, name=test 7, header=header 7, id=47}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 4, name=test 4, header=header 4, id=44}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 5, name=test 5, header=header 5, id=45}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=42}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 3, name=test 3, header=header 3, id=43}
+3864 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 0, name=test 0, header=header 0, id=40}
+3865 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 1, name=test 1, header=header 1, id=41}
+3865 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 2, name=test 2, header=header 2, id=38}
+3865 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 3, name=test 3, header=header 3, id=39}
+3865 [Test worker] DEBUG o.h.internal.util.EntityPrinter - ru.stqa.pft.addressbook.model.GroupData{footer=footer 3, name=test 3, header=header 3, id=36}
+3865 [Test worker] DEBUG o.h.internal.util.EntityPrinter - More......
+3885 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+3969 [Test worker] DEBUG o.h.r.j.i.LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
