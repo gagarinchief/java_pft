@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-14T18:15:38" hostname="MasterPC" time="2.236">
+  <properties/>
+  <testcase name="testGroupModification" classname="ru.stqa.pft.addressbook.tests.GroupModificationTests" time="2.236"/>
+  <system-out><![CDATA[13:15:37.895 [Test worker] INFO  r.s.pft.addressbook.tests.TestBase - Start test testGroupModification with parameters []
+Hibernate: select g1_0.group_id, g1_0.group_footer, g1_0.group_header, g1_0.group_name from group_list as g1_0
+Hibernate: select g1_0.group_id, g1_0.group_footer, g1_0.group_header, g1_0.group_name from group_list as g1_0
+Hibernate: select g1_0.group_id, g1_0.group_footer, g1_0.group_header, g1_0.group_name from group_list as g1_0
+13:15:41.001 [Test worker] INFO  r.s.pft.addressbook.tests.TestBase - Stop test testGroupModification
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
