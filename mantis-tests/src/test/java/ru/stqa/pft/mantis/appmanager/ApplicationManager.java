@@ -20,8 +20,8 @@ public class ApplicationManager {
     private String browser;
 
 
-    public ApplicationManager(String browser) throws IOException {
-        this.browser = browser; //значение параметра сохранено в поле
+    public ApplicationManager(String browser)  {
+        this.browser = browser;
         properties = new Properties();
 
     }
@@ -42,7 +42,6 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         wd.get(properties.getProperty("web.baseUrl"));
 
-//        contactHeper = new ContactHelper();
 
     }
 
@@ -51,5 +50,11 @@ public class ApplicationManager {
         wd.quit();
     }
 
+    public HttpSession newSession() {
+        return new HttpSession(this);
+    }
 
+    public Object getProperty(String key) {
+        return properties.getProperty(key);
+    }
 }
