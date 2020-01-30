@@ -7,8 +7,6 @@ import org.subethamail.wiser.WiserMessage;
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 import java.io.IOException;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class MailHelper {
     private ApplicationManager app;
@@ -19,18 +17,18 @@ public class MailHelper {
         wiser = new Wiser();
     }
 
-    public List<MailMessage> waitForMail(int count, long timeout) {
-        long start = System.currentTimeMillis();
-        while (System.currentTimeMillis() < start + timeout) {
-            if (wiser.getMessages().size() >= count) {
-                return wiser.getMessages().stream().map((m) -> toModelMail(m)).collect(Collectors.toList());
-            }
-        } try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } throw new Error("No mail :(");
-    }
+//    public List<MailMessage> waitForMail(int count, long timeout) {
+//        long start = System.currentTimeMillis();
+//        while (System.currentTimeMillis() < start + timeout) {
+//            if (wiser.getMessages().size() >= count) {
+//                return wiser.getMessages().stream().map((m) -> toModelMail(m)).collect(Collectors.toList());
+//            }
+//        } try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        } throw new Error("No mail :(");
+//    }
 
     public static MailMessage toModelMail(WiserMessage m) throws MessagingException {
         try {
